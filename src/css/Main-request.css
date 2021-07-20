@@ -108,10 +108,14 @@
     }
 
     .request-title {
-        width: 50vh;
+        width: auto;
         color: #483527;
         font-size: 1.8rem;
         text-align: center;
+    }
+
+    .request-text-box {
+        width: auto;
     }
 
     .request-text-box {
@@ -184,5 +188,6 @@
     }
     .btn_request {
         width: 50vw !important;
+        height: 6vh !important;
     }
 }
