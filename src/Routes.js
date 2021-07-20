@@ -1,13 +1,13 @@
 import React from 'react';
-import { BrowserRouter , Route } from 'react-router-dom';
+import { HashRouter , Route } from 'react-router-dom';
 import SurveyP from './SurveyPage';
 import Home from './Home';
 
 export default () => (
     <div >
-      <BrowserRouter>
+      <HashRouter>
         <Route exact={true} path="/aia-survey-dev" component={Home}/>
         <Route path="/surveypage" component={SurveyP}/>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   )
