@@ -1,0 +1,32 @@
+.progressicons-container{
+    display: flex;
+    flex-direction: row;
+    clear: both;
+    margin-top: 20%;
+    height: 60%;
+    justify-content: space-around;
+}
+.bottom-align{
+    align-self: flex-end;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .progressicons-container{
+        display: flex;
+        flex-direction: column;
+        clear: both;
+        margin-top: 25%;
+        height: 80%;
+        justify-content: space-around;
+    }
+    .bottom-align{
+        align-self: flex-end;
+    }
+    
+}
+
+
+
+

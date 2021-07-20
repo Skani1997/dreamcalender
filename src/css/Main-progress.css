@@ -1,0 +1,109 @@
+.main-container{
+    font-family: 'IBM Plex Sans', sans-serif !important;
+    height: 180vh;
+    padding : 1vh 7vw;
+    background-color: #FBFBFB;
+}
+
+.progress-title{
+    font-family: 'gmarketBold', sans-serif !important;
+    color: #483527;
+    padding-top: 8vh;
+    font-size: 2.5rem;
+    width: 30%;
+    float: left;
+}
+
+.progress-description{
+    font-family: 'Nanum Square' , sans-serif!important; 
+    float: left;
+    text-align: left;
+    padding-top: 10vh;
+    color: #2E2E2E;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 3rem;
+}
+
+.progress-caption{
+    font-family: 'notoserif' , sans-serif!important;
+    text-align: center;
+    padding-top: 15vh;
+    color: #2E2E2E;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+}
+@media screen and (max-width: 1200px){
+    .main-container{
+        font-family: 'IBM Plex Sans', sans-serif !important;
+        height: 130vh;
+        padding : 2vh 12vw;
+        text-align: center;
+        background-color: #FBFBFB;
+    }
+    
+    .progress-title{
+        width: 100%;
+        color: #483527;
+        padding-top: 2vh;
+        font-size: 1.8rem;
+    }
+    
+    .progress-description{
+        margin: 0;
+        padding-top: 2vh;
+        color: #2E2E2E;
+        text-align: center;
+        font-size: 0.9rem;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        line-height: 1.7rem;
+    }
+    
+    .progress-caption{
+        padding-top: 1vh;
+        color: #2E2E2E;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+    
+    
+}
+
+
+@media screen and (max-width: 768px){
+    .main-container{
+        font-family: 'IBM Plex Sans', sans-serif !important;
+        height: 300vh;
+        padding : 4vh 11vw;
+        text-align: center;
+        background-color: #FBFBFB;
+    }
+    
+    .progress-title{
+        color: #483527;
+        padding-top: 2vh;
+        font-size: 1.8rem;
+    }
+    
+    .progress-description{
+        margin: 0 0 4rem 0;
+        padding-top: 2vh;
+        color: #2E2E2E;
+        font-size: 1rem;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        line-height: 1.7rem;
+    }
+    
+    .progress-caption{
+        padding-top: 3vh;
+        color: #2E2E2E;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    
+    
+}

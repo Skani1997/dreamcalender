@@ -1,0 +1,138 @@
+.usagebox-container{
+    height: 80%;
+    display: flex;
+    font-family: 'IBM Plex Sans', sans-serif;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+}
+.usagebox-innercontainer{
+    height: 25vh;
+}
+.usagebox-img{
+    width: 43vh;
+    height: auto;
+    align-self: center;
+}
+
+.usagebox-title{
+    font-family: 'gmarketMid' , sans-serif!important;
+    margin: 0;
+    font-size: 1.4rem;
+    color: #EAEAEA;
+}
+
+.usagebox-subtitle{
+    font-family: 'gmarketMid', sans-serif !important;
+    margin: 0;
+    margin-bottom: 4vh;
+    letter-spacing: 1.5px;
+    font-size: 1.7rem;
+    color: #FA941E;
+}
+
+.usagebox-description{
+    font-family: 'Nanum Square' , sans-serif!important; 
+    margin-top: 2.5vh;
+    margin-bottom: 0.5vh;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    text-align: left;
+    line-height: 2.2rem;
+}
+.usagebox-description-small{
+    font-family: 'Nanum Square' , sans-serif!important; 
+    color: #FFFFFF;
+    font-size: 0.9rem;
+    text-align: left;
+    line-height: 1.5rem;
+}
+.usagebox-img-title{
+    font-weight: bold;
+    font-family: 'gmarketMid' , sans-serif!important;
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #EAEAEA;
+    margin-bottom: 1vh;
+}
+
+@media screen and (max-width: 1200px){
+    .usagebox-container{
+        height: 80%;
+        display: flex;
+        font-family: 'IBM Plex Sans', sans-serif;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .usagebox-innercontainer{
+        height: 25vh;
+    }
+    .usagebox-img{
+        width: 25vh;
+        height: auto;
+        align-self: center;
+    }
+
+    
+    .usagebox-description{
+        margin-top: 2.5vh;
+        color: #ffffff;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .usagebox-container{
+    height: 80%;
+    display: flex;
+    font-family: 'IBM Plex Sans', sans-serif;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 7vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.usagebox-innercontainer{
+    height: 25vh;
+}
+.usagebox-img{
+    width: 34vh;
+    height: auto;
+    align-self: center;
+}
+.usagebox-subtitle{
+    font-family: 'gmarketMid' , sans-serif!important;
+    margin: 0;
+    margin-bottom: 3vh;
+    font-size: 1.2rem;
+    color: #FA941E;
+}
+.usagebox-title{
+    font-family: 'gmarketMid', sans-serif !important;
+    margin: 0;
+    font-size: 1rem;
+    color: #EAEAEA;
+}
+
+.usagebox-description{
+    margin-top: 2.5vh;
+    width: 34vh;
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: left;
+}
+.usagebox-description-small{
+    font-family: 'Nanum Square' , sans-serif!important; 
+    color: #FFFFFF;
+    width: 34vh;
+    font-size: 0.7rem;
+    text-align: left;
+    line-height: 1.5rem;
+}
+}

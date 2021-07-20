@@ -1,0 +1,188 @@
+.main-request-container {
+    height: 100vh;
+    padding: 6vh 5vw;
+    background-color: #FBFBFB;
+    text-align: center;
+}
+
+.request-title {
+    font-family: 'gmarketBold', sans-serif !important;
+    color: #483527;
+    font-size: 2.5rem;
+}
+
+
+.request-description {
+    font-family: 'IBM Plex Sans', sans-serif !important;
+    color: #2E2E2E;
+    width:70%;
+    margin: 0 !important;
+    font-size: 1.4rem;
+    line-height: 3rem;
+    padding-top: 3vh;
+}
+
+.request-box-container {
+    margin-top: 2vh;
+    overflow: hidden;
+    padding: 0 4vw;
+}
+
+.request-container-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+    padding: 1vh 0;
+    width: 22vw;
+    height: 80vh;
+}
+
+.request-container-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+    padding: 1vh 0;
+    width: 22vw;
+    height: 80vh;
+}
+
+.request-box-title {
+    font-family: 'notosans', sans-serif !important;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: #A4734B;
+    border-radius: 64px;
+    width: 10rem;
+    padding: 1vh;
+    height: 2.5rem;
+    border: 0;
+    outline: 0;
+}
+
+.btn_request {
+    font-family: 'IBM Plex Sans', sans-serif !important;
+    letter-spacing: 2px;
+}
+
+.howtoimg {
+    width: 8vw;
+    margin-top: 1rem;
+}
+
+.request-box-description {
+    font-family: 'Nanum Square' , sans-serif!important; 
+    color: #1b1b1b;
+    font-size: 1.25rem;
+    line-height: 1.7rem;
+    margin-top: 3vh;
+}
+
+.request-box-description-title{
+    display: block;
+    padding : 2vh 0 1.5vh 0  !important;
+    letter-spacing: 0.5px;
+}
+
+.request-box-description-box{
+    margin-top: 2vh;
+    background-color: rgba(245,232,221,50);
+    border-radius: 10px;
+    padding : 2.5vh 5vh 2.5vh 5vh;
+}
+
+.request-text-box {
+    float: left;
+    text-align: left;
+    width: 40%;
+}
+
+@media screen and (max-width: 768px) {
+    .main-request-container {
+        height: 150vh;
+        padding: 4.5vh 8vw;
+        background-color: #FBFBFB;
+        text-align: center;
+    }
+
+    .request-title {
+        width: 50vh;
+        color: #483527;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .request-text-box {
+        display: float;
+        flex-direction: column;
+        align-items: center;
+        float: none;
+        text-align: center;
+    }
+
+    .request-description {
+        color: #2E2E2E;
+        font-size: 0.9rem;
+        width: 84vw;
+        line-height: 1.8rem;
+        margin-top: 3vh;
+        text-align: center;
+    }
+
+    .request-box-container {
+        width: 45vh;
+        margin: 5vh 0 0 0 ; 
+        padding: 0 ;
+    }
+
+    .request-container-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        float: left;
+        padding: 2vh 0;
+        width: 36vw;
+        height: 85vh;
+    }
+
+    .request-container-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        float: right;
+        padding: 2vh 0;
+        width: 36vw;
+        height: 85vh;
+    }
+
+    .request-box-title {
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+        background-color: #A4734B;
+        border-radius: 64px;
+        width: 15vh;
+        padding: 1.5vh;
+        height: 2.5rem;
+        border: 0;
+        outline: 0;
+    }
+
+    .howtoimg {
+        width: 22vw;
+        margin-top: 1vh;
+    }
+
+    .request-box-description {
+        color: #2E2E2E;
+        font-size: 0.9rem;
+        letter-spacing: -0.45px;
+        line-height: 1.4rem;
+        margin-top: 4vh;
+    }
+    .btn_request {
+        width: 50vw !important;
+    }
+}

@@ -1,0 +1,132 @@
+.configbox-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: left;
+    margin-left: 20%;
+    margin-bottom: 15vh;
+}
+
+.configbox-innercontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    text-align: left;
+    margin-left: 3rem;
+}
+
+.configbox-title{
+    font-family: 'notoserif' , sans-serif!important;
+    font-size: 1.5rem;
+    color: #2E2E2E;
+    line-height: 4rem;
+}
+
+.configbox-description{
+    font-family: 'IBM Plex Sans' , sans-serif!important;
+    color: #757373;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 2.5rem;
+    margin-top: 1vh;
+    padding-bottom: 3vh;
+}
+
+.configbox-img{
+    height: 40vh;
+    width: auto;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .configbox-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin-left: 0;
+        margin-top: 23vh;
+        padding: 0 10vw;
+    }
+    
+    .configbox-innercontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        text-align: left;
+        margin-left: 1rem;
+    }
+    
+    .configbox-title{
+        font-size: 1.7rem;
+        color: #2E2E2E;
+        line-height: 2rem;
+        margin-left: 1vw;
+        padding-top: 8vh;
+    }
+    
+    .configbox-description{
+        color: #757373;
+        font-size: 1rem;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 1.8rem;
+        margin-top: 1vh;
+        padding-bottom: 3vh;
+    }
+    
+    .configbox-img{
+        margin-top: 2.2vh;
+        height: 24vh;
+        width: auto;
+    }
+}   
+
+@media screen and (max-width: 768px) {
+    .configbox-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 4vh;
+        padding: 0 5vw;
+    }
+    
+    .configbox-innercontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        text-align: left;
+        margin-left: 1rem;
+    }
+    
+    .configbox-title{
+        font-size: 1.4rem;
+        color: #2E2E2E;
+        line-height: 2rem;
+        margin-left: 1vw;
+        padding-top: 4vh;
+    }
+    
+    .configbox-description{
+        color: #757373;
+        font-size: 0.9rem;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 1.8rem;
+        margin-top: 0.5vh;
+        padding-bottom: 3vh;
+    }
+    
+    .configbox-img{
+        margin-top: 2.2vh;
+        height: 25vh;
+        width: auto;
+    }
+}   

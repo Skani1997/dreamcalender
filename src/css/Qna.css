@@ -1,0 +1,135 @@
+.qna-container{
+    height: 100vh;
+    background-color: #4A3729;
+    padding : 7vh 3vw 0 3vw;
+}
+
+.qna-title{
+    color: #ECD4BC;
+    font-family: 'gmarketBold' , sans-serif!important;
+    font-size: 2.5rem;
+    float: left;
+}
+
+.qna-description{
+    color: #FFFFFF;
+    float: left;
+    font-family: 'IBM Plex Sans', sans-serif !important;
+    font-size: 1.4rem;
+    margin-left: 7vh;
+    line-height: 2.3rem;
+}
+
+.qna-box{
+    font-family: 'IBM Plex Sans', sans-serif !important;
+    clear: both;
+    background-color: #827368;
+    border-radius: 25px;
+    padding: 6vh 3vh;
+    margin-top: 10vh;
+    width: 63vh !important;
+    height:50vh !important;
+}
+.qna-slider{
+    clear: both;
+    height: 70%;
+}
+.qna-slider > .slick-list {
+    height: 100%;
+}
+.qna-slider  > .slick-track > .qna-box{
+    height: 90%;
+}
+.qna-slider .slick-slide{
+    opacity: 0.3;
+    transform: scale(0.8);
+}
+
+.slick-slide.slick-center {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.qna-box-title{
+    font-family: 'IBM Plex Sans', sans-serif !important;
+    font-size: 1.8rem;
+    color: #FA941E;
+}
+
+.qna-box-description{
+    font-size: 1.4rem;
+    margin-top: 3vh;
+    letter-spacing: 0.1px;
+    line-height: 2.5rem;
+    color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 768px){
+    .qna-container{
+        height: 100vh;
+        background-color: #4A3729;
+        padding : 7vh 7vw 0 10vw;
+    }
+    
+    .qna-title{
+        color: #ECD4BC;
+        font-family: 'gmarketBold' , sans-serif!important;
+        font-size: 1.8rem;
+    }
+    
+    .qna-description{
+        color: #FFFFFF;
+        font-family: 'IBM Plex Sans' , sans-serif!important;
+        font-size: 1rem;
+        line-height: 2rem;
+        margin: 0;
+    }
+    
+    .qna-slider-container{
+        width: 100%;
+        height: 70vh;
+    }
+    .qna-box{
+        font-family: 'IBM Plex Sans' , sans-serif!important;
+        margin-left: 3%;
+        margin-top: 5%;
+        background-color: #827368;
+        border-radius: 25px;
+        padding: 4vh 4vh;
+        width: 40vh !important;
+        height:60vh !important;
+    }
+    .qna-slider{
+        clear: both;
+        height: 90%;
+    }
+    .qna-slider > .slick-list {
+        height: 100%;
+    }
+    .qna-slider  > .slick-track > .qna-box{
+        height: 90%;
+    }
+    .qna-slider .slick-slide{
+        opacity: 1;
+        transform: scale(1);
+    }
+    
+    .slick-slide.slick-center {
+        transform: scale(1);
+        opacity: 1;
+    }
+    
+    .qna-box-title{
+        font-family: 'IBM Plex Sans' , sans-serif!important;
+        font-size: 1.4rem;
+        color: #FA941E;
+    }
+    
+
+    .qna-box-description{
+        font-size: 1rem;
+        line-height: 1.6rem;
+        color: #FFFFFF;
+    }
+}

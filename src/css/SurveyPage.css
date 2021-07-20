@@ -1,0 +1,10 @@
+.sv_prev_btn{
+    display: none;
+}
+.sv_page_title{
+    margin: 4vh 0 ;
+}
+.sv_page_title > span{
+    font-size: 2rem;
+    font-weight: bold;
+}

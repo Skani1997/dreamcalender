@@ -1,0 +1,203 @@
+.contact-container{
+    height: 70%;
+    padding : 5vh 10vw;
+    text-align: center;
+    background-color: #FBFBFB;
+}
+
+.contact-container>h1{
+    font-family: 'gmarketBold' , sans-serif!important;
+    color : #4B382A;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.contact-container>p{
+    font-family: 'IBM Plex Sans' , sans-serif!important;
+    color: #222222;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+}
+
+.contact-form{
+    margin-top: 3vh;
+}
+
+.form-container{
+    overflow: hidden;
+    padding : 0 26.3vw;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    border-top: 1px solid #707070;
+}
+
+.form-input:nth-child(5){
+    border-bottom: 1px solid #707070;
+}
+
+.select{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+}
+
+.select select{
+    appearance: none;
+    font-size: 1.1rem;
+    font-family: 'IBM Plex Sans' , sans-serif!important;
+    outline: none;
+    margin-bottom: 0.35vh;
+    background-color: #FBFBFB;
+    margin-left: 0.5vw;
+    color: #767676;
+    border: 0;
+}
+.select-arrow{
+    margin-left: 5px;
+    margin-top: 5px;
+    width :0;
+    height :0;
+    pointer-events: none;
+    border-style :solid;
+    border-width: 8px 5px 0 5px;
+    border-color: #999 transparent transparent transparent;
+}
+
+.form-container>div>input{
+    float: left;
+    background-color: #FBFBFB;
+    width :17vw;
+    height : 3vh;
+    margin : 0.5vh 0 ;
+    border-radius: 12px;
+    border: none;
+    padding : 0 20px;
+}
+
+.contact-content{
+    float: left;
+    background-color: #FBFBFB;
+    clear: both;
+    resize: none;
+    margin-top: 0.7vh;
+    border-radius: 12px;
+    border: none;
+    padding : 20px 20px;
+    width: 20vw;
+}
+label{
+    font-size: 1.2rem;
+    height : 4vh;
+    margin : 2vh 0.5vw 0 0.5vw ;
+    float:left;
+    font-family: 'IBM Plex Sans' , sans-serif!important;
+    color : #4A3729;
+    font-weight: 700;
+}
+
+.submit-btn{
+    margin-top: 3.5vh;
+    border: none;
+    width:  6.5rem;
+    height: 3.5vh;
+    font-size: 1em;
+    border-radius: 150px;
+    font-family: 'IBM Plex Sans' , sans-serif!important;
+    color: #ffffff;
+    background-color: #FA941E;
+}
+
+.term{
+    text-align: left;
+    margin : 1.5vh 0 0 0.5vw;
+}
+
+.checkbox{
+    float: left;
+    margin : 0.3vh 1vh 0 0;
+}
+
+.termmodal{
+    float: left;
+}
+
+@media screen and (max-width: 1024px){
+    .contact-container{
+        height: 70%;
+        padding : 8vh 10vw;
+        text-align: center;
+        background-color: #FBFBFB;
+    }
+    
+    .contact-container>h1{
+        color : #4B382A;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    
+    .contact-container>p{
+        color: #222222;
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+    
+    .contact-form{
+        margin-top: 5vh;
+    }
+    
+    .form-container{
+        overflow: hidden;
+        padding : 0 1vw;
+    }
+    
+    .form-container>div>input{
+        width: 50vw;
+    }
+    
+    .contact-content{
+        outline: none;
+        background-color: #E6E6E6;
+        clear: both;
+        resize: none;
+        margin-top: 0.7vh;
+        border-radius: 12px;
+        border: none;
+        padding : 20px 20px;
+        width: 70vw;
+    }
+    
+    input::placeholder{
+        color : #7E7E7E;
+        font-weight: 700;
+    }
+    
+    textarea::placeholder{
+        color : #7E7E7E;
+        font-weight: 700;
+    }
+    
+    .submit-btn{
+        margin-top: 2vh;
+        border: none;
+        width:  6.5rem;
+        height: 3.5vh;
+        font-size: 1em;
+        border-radius: 150px;
+        color: #7E7E7E;
+        background-color: #E6E6E6;
+    }
+    
+    .select select{
+        margin-top: 1vh;
+        margin-left: 3vh;
+    }
+    .select-arrow{
+        margin-top: 10px;
+    }
+}

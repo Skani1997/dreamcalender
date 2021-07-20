@@ -1,0 +1,231 @@
+.review-container{
+    height: 140vh;
+    padding : 5vh 10vw 0 10vw;
+    background-color: #FBFBFB;
+}
+
+.review-title{
+    font-family: 'gmarketBold' , sans-serif!important;
+    font-size: 2.5rem;
+    color: #343434;
+    margin-left: 3vw;
+    margin-bottom: 8vh;
+}
+
+.review-img{
+    width : 23vw;
+}
+
+.slick-arrow::before{
+    opacity: 1;
+    color: #707070;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.center .slick-slide{
+    opacity: 0.5;
+}
+
+.slick-slide.slick-center {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+
+.reviewbox1{
+    font-family: 'IBM Plex Sans' , sans-serif!important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url(../image/review1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 20vw;
+    height: 55vh;
+    padding : 5vh 2.5vw; 
+}
+
+.reviewbox2{
+    font-family: 'IBM Plex Sans', sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url(../image/review2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 20vw;
+    height: 55vh;
+    padding : 5vh 2.5vw; 
+}
+
+.reviewbox3{
+    font-family: 'IBM Plex Sans', sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url(../image/review3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 20vw;
+    height: 55vh;
+    padding : 5vh 2.5vw; 
+    text-overflow:ellipsis;
+}
+
+.reviewbox4{
+    font-family: 'IBM Plex Sans', sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url(../image/review4.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 20vw;
+    height: 55vh;
+    padding : 5vh 2.5vw; 
+    text-overflow:ellipsis;
+}
+
+.review-carousel{
+    margin : 0 2vw;
+}
+
+.reviewbox-name{
+    font-size: 1.3rem;
+    padding-top: 33vh;
+    margin-bottom: 1vh;
+    color :#FA941E;
+    font-weight: bold;
+}
+
+.reviewbox-description{
+    font-size: 1.05rem;
+    letter-spacing: -0.1px;
+    color :#ffffff;
+}
+
+.review-description{
+    margin-top: 22vh;
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    color: #2E2E2E;
+    font-weight: bold;
+    font-family: 'notoserif' , sans-serif!important;
+}
+
+@media screen and (max-width : 1200px){
+
+}
+
+@media screen and (max-width: 768px){
+    .review-container{
+        height: 100vh;
+        padding : 7vh 7vw 0 10vw;
+        background-color: #FBFBFB;
+    }
+    
+    .review-title{
+        font-family: 'gmarketBold' , sans-serif!important;
+        font-size: 1.8rem;
+        color: #343434;
+        text-align: center;
+        margin-bottom: 8vh;
+    }
+
+    .reviewbox1{
+        
+        font-family: 'IBM Plex Sans' , sans-serif!important;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-image: url(../image/review1.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        padding : 5vh 10vw;
+        margin : 0;
+    }
+    
+    .reviewbox2{
+        
+        font-family: 'IBM Plex Sans', sans-serif!important;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-image: url(../image/review2.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        padding : 5vh 10vw; 
+        margin : 0;
+    }
+    
+    .reviewbox3{
+        
+        font-family: 'IBM Plex Sans' , sans-serif!important;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-image: url(../image/review3.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        padding : 5vh 10vw; 
+        margin : 0;
+    }
+    .reviewbox4{
+        
+        font-family: 'IBM Plex Sans', sans-serif!important;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-image: url(../image/review4.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        padding : 5vh 10vw; 
+        margin : 0;
+    }
+    .reviewbox-name{
+        font-size: 1.2rem;
+        padding-top: 33vh;
+        margin-bottom: 1vh;
+        color :#FA941E;
+    }
+    
+    .reviewbox-description{
+        font-size: 0.7rem;
+        color :#ffffff;
+    }
+    
+    .review-description{
+        margin-top: 6vh;
+        text-align: center;
+        font-size: 0.9rem;
+        line-height: 1.6rem;
+        color: #696969;
+        font-weight: 500;
+        font-family: 'notoserif', sans-serif !important;
+    }
+    .center{
+        height: 60%;
+    }
+
+    .center > .slick-list {
+        height: 100%;
+    }
+
+    .center .slick-slide{
+        opacity: 1;
+    }
+    
+    .center .slick-list > .slick-track{
+        height: 50%;
+    }
+}

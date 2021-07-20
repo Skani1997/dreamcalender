@@ -1,0 +1,48 @@
+@font-face{
+  font-family: "notosans";
+  src: url(./Font/NotoSans-Medium.ttf);
+}
+
+@font-face{
+  font-family: "gmarketBold";
+  src: url(./Font/GmarketSansTTFBold.ttf);
+}
+
+@font-face{
+  font-family: "gmarketLight";
+  src: url(./Font/GmarketSansTTFLight.ttf);
+}
+
+@font-face{
+  font-family: "gmarketMid";
+  src: url(./Font/GmarketSansTTFMedium.ttf);
+}
+
+@font-face{
+  font-family: "notoserif";
+  src: url(./Font/NotoSerifCJKkr-Medium.otf);
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url(./Font/IBMPlexSansKR-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Nanum Square';
+  src: url(./Font/NanumSquare.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: 'notosans',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

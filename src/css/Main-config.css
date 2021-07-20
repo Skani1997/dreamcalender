@@ -1,0 +1,63 @@
+.config-container{
+    height: 118vh;
+    padding : 20vh 5vw;
+    text-align: center;
+    background-color: #FBFBFB;
+}
+.config-title{
+    font-family: 'gmarketBold' , sans-serif!important;
+    font-size: 2.5rem;
+    color: #483527;
+}
+
+.slick-dots li.slick-active button::before{
+    opacity: 1;
+    color: #A4734B;
+    font-size: 15px;
+    line-height: 15px;
+}
+.slick-dots li button::before{
+    opacity: 1;
+    color: #D8D8D8;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+
+.configbox-list{
+    margin-top: 15vh;
+    height: 10vh;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .config-container{
+        height: 100vh;
+        padding : 10vh 5vw;
+        text-align: center;
+        background-color: #FBFBFB;
+    }
+    .config-title{
+        font-size: 2rem;
+        color: #483527;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .config-container{
+        font-family: "IBM Plex Sans" , sans-serif!important;
+        height: 110vh;
+        padding : 10vh 0;
+        text-align: center;
+        background-color: #FBFBFB;
+    }
+    .config-title{
+        font-size: 1.8rem;
+        color: #483527;
+    }
+    .configbox-list{
+        margin-top: 10vh;
+        height: 10vh;
+    }
+}

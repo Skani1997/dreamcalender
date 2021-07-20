@@ -1,0 +1,50 @@
+.description{   
+    font-family: 'Nanum Square' , sans-serif!important; 
+    margin-top: 2vh;
+    letter-spacing: 1px;
+    line-height: 2.5rem;
+    font-size: 1.25rem;
+    color: white;
+    font-weight: bold;
+  }
+  
+.header-subtitle{
+  font-family: 'IBM Plex Sans' , sans-serif!important;
+    font-size: 3rem;
+    color: white;
+}
+
+.header-title{
+  font-family: 'IBM Plex Sans' , sans-serif!important;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    font-size: 4rem;
+    color: white;
+} 
+.orange{
+  color: #FA941E;
+}
+
+/*모바일 반응형 코드*/
+@media screen and (max-width: 1024px){
+  .description{
+    margin-top: 30vh;
+    line-height: 2rem;
+    font-size: 1rem;
+    color: white;
+  }
+  
+.header-subtitle{
+    font-size: 2rem;
+    color: white;
+}
+
+.header-title{
+    margin-top: 3vh;
+    margin-bottom: 6vh;
+    font-size: 3rem;
+} 
+.orange{
+  color: #FA941E;
+}
+}
