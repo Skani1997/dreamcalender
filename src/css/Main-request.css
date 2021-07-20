@@ -189,5 +189,6 @@
     .btn_request {
         width: 50vw !important;
         height: 6vh !important;
+        padding: 0 !important;
     }
 }
