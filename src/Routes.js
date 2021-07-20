@@ -6,7 +6,7 @@ import Home from './Home';
 export default () => (
     <div >
       <HashRouter>
-        <Route exact={true} path="/aia-survey" component={Home}/>
+        <Route exact={true} path="/dreamcalender/" component={Home}/>
         <Route path="/surveypage" component={SurveyP}/>
       </HashRouter>
     </div>
