@@ -21,7 +21,7 @@ const Surveymodal = () => {
             </form>
       </Modal.Content>
       <Modal.Actions>
-        <Link to="/dreamcalender/surveypage">
+        <Link to="/surveypage">
           <Button className="survey-btn">
             설문 시작 <Icon name='chevron right' />
           </Button>
