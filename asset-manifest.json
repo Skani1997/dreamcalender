@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/dreamcalender/static/css/main.8697cb1c.chunk.css",
-    "main.js": "/dreamcalender/static/js/main.ca7d7358.chunk.js",
-    "main.js.map": "/dreamcalender/static/js/main.ca7d7358.chunk.js.map",
+    "main.js": "/dreamcalender/static/js/main.19492a05.chunk.js",
+    "main.js.map": "/dreamcalender/static/js/main.19492a05.chunk.js.map",
     "runtime-main.js": "/dreamcalender/static/js/runtime-main.4fb595bf.js",
     "runtime-main.js.map": "/dreamcalender/static/js/runtime-main.4fb595bf.js.map",
     "static/css/2.d54b9d65.chunk.css": "/dreamcalender/static/css/2.d54b9d65.chunk.css",
     "static/js/2.e9cf95a4.chunk.js": "/dreamcalender/static/js/2.e9cf95a4.chunk.js",
     "static/js/2.e9cf95a4.chunk.js.map": "/dreamcalender/static/js/2.e9cf95a4.chunk.js.map",
     "index.html": "/dreamcalender/index.html",
-    "precache-manifest.334d06f894048806c57db0d3667ca568.js": "/dreamcalender/precache-manifest.334d06f894048806c57db0d3667ca568.js",
+    "precache-manifest.5e6df512d46fc7114ec9b2d692474ad6.js": "/dreamcalender/precache-manifest.5e6df512d46fc7114ec9b2d692474ad6.js",
     "service-worker.js": "/dreamcalender/service-worker.js",
     "static/css/2.d54b9d65.chunk.css.map": "/dreamcalender/static/css/2.d54b9d65.chunk.css.map",
     "static/css/main.8697cb1c.chunk.css.map": "/dreamcalender/static/css/main.8697cb1c.chunk.css.map",
@@ -48,6 +48,6 @@
     "static/css/2.d54b9d65.chunk.css",
     "static/js/2.e9cf95a4.chunk.js",
     "static/css/main.8697cb1c.chunk.css",
-    "static/js/main.ca7d7358.chunk.js"
+    "static/js/main.19492a05.chunk.js"
   ]
 }
