@@ -7,7 +7,7 @@ export default () => (
     <div >
       <HashRouter>
         <Switch>
-            <Route exact path="" component={Home}/>
+            <Route exact path="/" component={Home}/>
             <Route path="/#/surveypage" component={SurveyP}/>
         </Switch>
       </HashRouter>
