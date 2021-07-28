@@ -8,7 +8,7 @@ export default () => (
       <HashRouter>
         <Switch>
             <Route exact path="/" component={Home}/>
-            <Route path="/#/surveypage" component={SurveyP}/>
+            <Route path="/surveypage" component={SurveyP}/>
         </Switch>
       </HashRouter>
     </div>
