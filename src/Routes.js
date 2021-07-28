@@ -1,15 +1,15 @@
 import React from 'react';
-import { BrowserRouter , Route ,Switch } from 'react-router-dom';
+import { HashRouter, Route ,Switch } from 'react-router-dom';
 import SurveyP from './SurveyPage';
 import Home from './Home';
 
 export default () => (
     <div >
-      <BrowserRouter>
+      <HashRouter>
         <Switch>
           <Route exact path="/" component={Home}/>
           <Route path="/surveypage" component={SurveyP}/>
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   )
