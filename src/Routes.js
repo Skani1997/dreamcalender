@@ -1,13 +1,13 @@
 import React from 'react';
-import { HashRouter , Route } from 'react-router-dom';
+import { BrowserRouter , Route } from 'react-router-dom';
 import SurveyP from './SurveyPage';
 import Home from './Home';
 
 export default () => (
     <div >
-      <HashRouter>
-        <Route exact={true} path="" component={Home}/>
+      <BrowserRouter>
+        <Route exact={true} path="/" component={Home}/>
         <Route path="/surveypage" component={SurveyP}/>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   )
