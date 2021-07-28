@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/dreamcalender/static/css/main.8697cb1c.chunk.css",
-    "main.js": "/dreamcalender/static/js/main.acad6b7b.chunk.js",
-    "main.js.map": "/dreamcalender/static/js/main.acad6b7b.chunk.js.map",
+    "main.js": "/dreamcalender/static/js/main.4a01b823.chunk.js",
+    "main.js.map": "/dreamcalender/static/js/main.4a01b823.chunk.js.map",
     "runtime-main.js": "/dreamcalender/static/js/runtime-main.4fb595bf.js",
     "runtime-main.js.map": "/dreamcalender/static/js/runtime-main.4fb595bf.js.map",
     "static/css/2.d54b9d65.chunk.css": "/dreamcalender/static/css/2.d54b9d65.chunk.css",
-    "static/js/2.cb8bdf14.chunk.js": "/dreamcalender/static/js/2.cb8bdf14.chunk.js",
-    "static/js/2.cb8bdf14.chunk.js.map": "/dreamcalender/static/js/2.cb8bdf14.chunk.js.map",
+    "static/js/2.e9cf95a4.chunk.js": "/dreamcalender/static/js/2.e9cf95a4.chunk.js",
+    "static/js/2.e9cf95a4.chunk.js.map": "/dreamcalender/static/js/2.e9cf95a4.chunk.js.map",
     "index.html": "/dreamcalender/index.html",
-    "precache-manifest.da35c8ed1967d88e602eee7c0724a49a.js": "/dreamcalender/precache-manifest.da35c8ed1967d88e602eee7c0724a49a.js",
+    "precache-manifest.d3888b3f0b56eccded4c7576acf89770.js": "/dreamcalender/precache-manifest.d3888b3f0b56eccded4c7576acf89770.js",
     "service-worker.js": "/dreamcalender/service-worker.js",
     "static/css/2.d54b9d65.chunk.css.map": "/dreamcalender/static/css/2.d54b9d65.chunk.css.map",
     "static/css/main.8697cb1c.chunk.css.map": "/dreamcalender/static/css/main.8697cb1c.chunk.css.map",
-    "static/js/2.cb8bdf14.chunk.js.LICENSE.txt": "/dreamcalender/static/js/2.cb8bdf14.chunk.js.LICENSE.txt",
+    "static/js/2.e9cf95a4.chunk.js.LICENSE.txt": "/dreamcalender/static/js/2.e9cf95a4.chunk.js.LICENSE.txt",
     "static/media/index.css": "/dreamcalender/static/media/NotoSerifCJKkr-Medium.2c660842.otf",
     "static/media/Main-introduce.css": "/dreamcalender/static/media/bgimg.330ab57a.png",
     "static/media/semantic.min.css": "/dreamcalender/static/media/outline-icons.ef60a4f6.woff",
@@ -46,8 +46,8 @@
   "entrypoints": [
     "static/js/runtime-main.4fb595bf.js",
     "static/css/2.d54b9d65.chunk.css",
-    "static/js/2.cb8bdf14.chunk.js",
+    "static/js/2.e9cf95a4.chunk.js",
     "static/css/main.8697cb1c.chunk.css",
-    "static/js/main.acad6b7b.chunk.js"
+    "static/js/main.4a01b823.chunk.js"
   ]
 }
