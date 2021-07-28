@@ -7,8 +7,8 @@ export default () => (
     <div >
       <BrowserRouter>
         <Switch>
-          <Route exact path="/" component={Home}/>
-          <Route path="/surveypage" component={SurveyP}/>
+          <Route path="/" component={Home}/>
+          <Route path="/dreamcalender/surveypage" component={SurveyP}/>
         </Switch>
       </BrowserRouter>
     </div>
