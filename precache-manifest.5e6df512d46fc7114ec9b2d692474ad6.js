@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0c1f06f86aeb9b58aa29b7cc433d289b",
+    "revision": "15bd5371291da24ec086eab5e8276c8a",
     "url": "/dreamcalender/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dreamcalender/static/css/2.d54b9d65.chunk.css"
   },
   {
-    "revision": "c113267690bd066431ba",
+    "revision": "2a048da6af7fd002ca16",
     "url": "/dreamcalender/static/css/main.8697cb1c.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dreamcalender/static/js/2.e9cf95a4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c113267690bd066431ba",
-    "url": "/dreamcalender/static/js/main.2020c8c6.chunk.js"
+    "revision": "2a048da6af7fd002ca16",
+    "url": "/dreamcalender/static/js/main.19492a05.chunk.js"
   },
   {
     "revision": "862f6f76678ef0b54ee4",
